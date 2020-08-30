@@ -1,5 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 .popin {
     width:200px;
     height:200px;
     background-color:red;
+    position: absolute;
+    left:50%;
+    top:50%;
+}
+
+.close-popin{
+    text-align:right;
+    width: 100%;
+    display: inline-block;
+    padding:5px;
+
 }
